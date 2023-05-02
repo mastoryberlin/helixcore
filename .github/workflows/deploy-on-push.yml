@@ -21,5 +21,5 @@ jobs:
           ssh-private-key: ${{ secrets.SSH_PRIVATE_KEY }}
           dokku-host: ${{ secrets.HOSTNAME }}
           app-name: ${{ secrets.APP_NAME }}
-          remote-branch: main
+          remote-branch: master
           git-push-flags: --set-upstream --force
